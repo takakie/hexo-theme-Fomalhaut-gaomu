@@ -113,7 +113,7 @@ favicon:
 
 # Avatar (頭像)
 avatar:
-  img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
+  img: /assets/my_img/avtor.png
   effect: false
 
 # Disable all banner image
@@ -336,7 +336,7 @@ valine:
   appKey: plX5ukhr9VpwfvdlLRvFp5dd # leancloud application app key
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: https://x9xkmagx.api.lncldglobal.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: https://s2.loli.net/2023/12/02/mJLrayKSgC4Hj7e.jpg # valine background
+  bg: # valine background
   visitor: true
   verify: false
   notify: false
