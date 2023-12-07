@@ -4,30 +4,35 @@
 
 menu:
   首页: / || icon-home || faa-tada
-  文章 || icon--article || faa-tada || hide:
-    归档: /archives/ || icon-guidang1 || faa-tada
-    标签: /tags/ || icon-sekuaibiaoqian || faa-tada
-    分类: /categories/ || icon-fenlei || faa-tada
-  休闲 || icon-pinweishenghuo || faa-tada || hide:
-    八音盒: /life/music/ ||icon-yinle || faa-tada
-    影院: /life/movies/ ||icon-dianying1 || faa-tada
-    游戏: /life/games/ || icon-youxishoubing || faa-tada
-  八宝箱 || icon-xiangzi || faa-tada || hide:
-    画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
-    动画: /box/animation/ || icon-nvwumao || faa-tada
-    网址导航: /box/nav/ || icon-zhifengche || faa-tada
-  社交 || icon-shejiaoxinxi || faa-tada || hide:
-    朋友圈: /social/fcircle/ || icon-pengyouquan || faa-tada
-    留言板: /comments/ || icon-liuyan || faa-tada
-    友人帐: /social/link/ || icon-lianjie || faa-tada
-  网站 || icon-wangye || faa-tada || hide:
-    网站统计: /site/census/ || icon--tongjibiao || faa-tada
-    文章统计: /site/echarts/ || icon-shujutongji1 || faa-tada
-    旧时光: /site/time/ || icon-xianxingshalou || faa-tada
-  个人 || icon-maoliang || faa-tada || hide:
-    唠叨: /personal/bb/ || icon-qunliaotian || faa-tada
-    恋爱小屋: /personal/love/ || icon-love-sign || faa-tada
-    关于: /personal/about/ || icon-paperplane || faa-tada
+  归档: /archives/ || icon-guidang1 || faa-tada
+  标签: /tags/ || icon-sekuaibiaoqian || faa-tada
+  分类: /categories/ || icon-fenlei || faa-tada
+  留言板: /comments/ || icon-liuyan || faa-tada
+  关于: /personal/about/ || icon-paperplane || faa-tada
+  # 文章 || icon--article || faa-tada || hide:
+  #   归档: /archives/ || icon-guidang1 || faa-tada
+  #   标签: /tags/ || icon-sekuaibiaoqian || faa-tada
+  #   分类: /categories/ || icon-fenlei || faa-tada
+  # 休闲 || icon-pinweishenghuo || faa-tada || hide:
+  #   八音盒: /life/music/ ||icon-yinle || faa-tada
+  #   影院: /life/movies/ ||icon-dianying1 || faa-tada
+  #   游戏: /life/games/ || icon-youxishoubing || faa-tada
+  # 八宝箱 || icon-xiangzi || faa-tada || hide:
+  #   画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
+  #   动画: /box/animation/ || icon-nvwumao || faa-tada
+  #   网址导航: /box/nav/ || icon-zhifengche || faa-tada
+  # 社交 || icon-shejiaoxinxi || faa-tada || hide:
+  #   朋友圈: /social/fcircle/ || icon-pengyouquan || faa-tada
+  #   留言板: /comments/ || icon-liuyan || faa-tada
+  #   友人帐: /social/link/ || icon-lianjie || faa-tada
+  # 网站 || icon-wangye || faa-tada || hide:
+  #   网站统计: /site/census/ || icon--tongjibiao || faa-tada
+  #   文章统计: /site/echarts/ || icon-shujutongji1 || faa-tada
+  #   旧时光: /site/time/ || icon-xianxingshalou || faa-tada
+  # 个人 || icon-maoliang || faa-tada || hide:
+  #   唠叨: /personal/bb/ || icon-qunliaotian || faa-tada
+  #   恋爱小屋: /personal/love/ || icon-love-sign || faa-tada
+  #   关于: /personal/about/ || icon-paperplane || faa-tada
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -157,6 +162,13 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     - https://source.fomal.cc/img/default_cover_14.webp
+    - https://s2.loli.net/2023/12/06/8qfHvD6Fzc9IJUY.jpg
+    - https://s2.loli.net/2023/12/06/hH7ycSUJK2iFYVv.jpg
+    - https://s2.loli.net/2023/12/06/QUKXpCO7xAiBga5.jpg
+    - https://s2.loli.net/2023/12/06/caOTFEI7rpjoJMy.jpg
+    - https://s2.loli.net/2023/12/06/wgVhpTk9xMeD3FW.jpg
+    - https://s2.loli.net/2023/12/06/v8qoDue7C2fpEFw.jpg
+    - https://s2.loli.net/2023/12/06/tOzwoh3jaAgYW7G.jpg
     # ...
 
 # A simple 404 page
@@ -224,12 +236,12 @@ reward:
   enable: true
   coinAudio: https://npm.elemecdn.com/akilar-candyassets@1.0.36/audio/aowu.m4a
   QR_code:
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/2.webp
+    - img: /assets/my_img/red_cross.png
       link:
       text: 微信
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/20f8e49805975b8f8.webp
-      link:
-      text: 支付宝
+    # - img: https://tuchuang.voooe.cn/images/2023/01/04/20f8e49805975b8f8.webp
+    #   link:
+    #   text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -677,7 +689,7 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - "Welcome to Fomalhaut🥝のTiny Home!🤣🤣🤣"
+    - "Welcome to Fomalhaut🐳のTiny Home!🤣🤣🤣"
     - "Hope you have a nice day!🍭🍭🍭"
 
 # Loading Animation (加載動畫)
@@ -921,6 +933,8 @@ inject:
     - <span id="fps"></span> # 帧率检测
     - <style id="defineBg"></style> # 自定义背景选项
     - <style id="menu_shadow"></style> # 菜单发光样式
+    - <script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script>
+    
 
   bottom:
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery

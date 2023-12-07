@@ -33,12 +33,12 @@ type: "link"
 
 | 名称       | 数值                                                         |
 | ---------- | ------------------------------------------------------------ |
-| 站点名称   | Fomalhaut🥝                                                   |
+| 站点名称   | Fomalhaut🐳                                                   |
 | 站点截图   | https://source.fomal.cc/siteshot/www.fomal.cn.jpg |
 | 站点链接   | https://www.fomal.cc/                                        |
 | 站长头像   | https://www.fomal.cc/assets/avatar.webp                         |
 | 站点描述   | Future is now🍭🍭🍭                         |
-| 站点关键词 | Fomalhaut🥝,个人博客,代码                                     |
+| 站点关键词 | Fomalhaut🐳,个人博客,代码                                     |
 
 <!-- endtab -->
 {% endtabs %}
